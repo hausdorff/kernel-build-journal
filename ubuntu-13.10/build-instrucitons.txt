@@ -1,0 +1,13 @@
+#
+# Very simple. Just run:
+#
+
+make
+make modules
+make modules_install
+make install
+
+#
+# Other helpful resources:
+#   - http://www.cyberciti.biz/tips/compiling-linux-kernel-26.html
+#
