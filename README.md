@@ -8,6 +8,12 @@ As I mess around with the kernel (recompiling it, *etc*.) I have found it useful
 * The distribution and version for which I built the kernel.
 
 
+## Directory structure
+
+For some $OS (say, Ubuntu 13.10) and some kernel version (say 3.15.0-rc2), the **config file** will be located at `$PROJ_ROOT/$OS/$VERSION_STRING/.config`, or in this case `$PROJ_ROOT/ubuntu-13.10/3.15.0-rc2/.config`.
+
+Similarly, the **build notes** will be located at `$PROG_ROOT/$OS/$VERSION_STRING/build-instructions.txt`.
+
 ## LICENSE
 
 Distributed under MIT, which basically means that if you should use this code for anything, you just have to keep a note saying we wrote the code. That said, God help you should you actually decide to use this code.
