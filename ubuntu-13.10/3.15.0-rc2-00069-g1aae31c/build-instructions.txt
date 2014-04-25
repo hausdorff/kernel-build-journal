@@ -9,8 +9,8 @@
 
 make
 make modules
-make modules_install
-make install
+sudo make modules_install
+sudo make install
 
 #
 # Other helpful resources for building kernels:
