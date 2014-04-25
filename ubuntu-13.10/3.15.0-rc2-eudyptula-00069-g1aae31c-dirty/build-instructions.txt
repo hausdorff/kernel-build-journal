@@ -1,0 +1,15 @@
+#
+# Hosted at:
+#   git@github.com:hausdorff/linux.git
+# Build from source at commit:
+#   816349d40891ebcfe564c7087bbb36921aa8ef78
+# In branch:
+#   extraversion-add
+#
+# To build, simply run:
+#
+
+make
+make modules
+sudo make modules_install
+sudo make install
